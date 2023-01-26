@@ -133,4 +133,4 @@ export const createProductElement = ({ id, title, thumbnail, price }) => {
   section.appendChild(cartButton);
 
   return section;
-};  
+};
