@@ -10,7 +10,9 @@ export const getSavedCartIDs = () => {
 /**
  * Função que adiciona um product ao carrinho.
  * @param {string} id - ID do product a ser adicionado.
+ *
  */
+
 export const saveCartID = (id) => {
   if (!id) throw new Error('Você deve fornecer um ID');
 
