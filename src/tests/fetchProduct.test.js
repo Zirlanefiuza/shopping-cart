@@ -22,4 +22,4 @@ describe('Teste a função fetchProduct', () => {
   it('Teste se, ao chamar a função sem argumento, retorna um erro', async () => {
     await expect(fetchProduct()).rejects.toThrowError('ID não informado')
   });
-});
+}); 
